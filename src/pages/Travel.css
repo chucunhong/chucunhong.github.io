@@ -137,6 +137,26 @@
   border-color: #8b5cf6 !important;
 }
 
+/* Attribution (required by OpenStreetMap's tile usage policy) */
+.map-container .leaflet-control-attribution {
+  border-radius: 6px !important;
+  padding: 1px 6px !important;
+  font-size: 0.65rem !important;
+  border: none !important;
+}
+
+[data-theme="dark"] .map-container .leaflet-control-attribution {
+  background: rgba(13, 22, 36, 0.75) !important;
+  color: #8ea4c4 !important;
+}
+
+[data-theme="light"] .map-container .leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.75) !important;
+  color: #666 !important;
+}
+
+.map-container .leaflet-control-attribution a { color: inherit !important; }
+
 
 .map-hint {
   font-family: 'Roboto', sans-serif;

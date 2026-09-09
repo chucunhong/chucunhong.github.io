@@ -217,13 +217,16 @@ function Travel() {
           style={{ width: '100%', height: '100%' }}
           zoomControl={true}
           scrollWheelZoom={true}
-          attributionControl={false}
+          attributionControl={true}
         >
+          {/* Wikimedia's own OSM-based tiles — free, keyless, run by the
+              Wikimedia Foundation (stable, non-commercial infra unlikely to
+              suddenly gate behind an API key the way Carto's
+              basemaps.cartocdn.com just did). Dark mode is a CSS filter on
+              the tile pane (below), so it works with any raster tile source. */}
           <TileLayer
-            url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png"
-          />
-          <TileLayer
-            url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png"
+            url="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png"
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors | Tiles: <a href="https://wikimediafoundation.org/" target="_blank" rel="noopener noreferrer">Wikimedia</a>'
           />
           <TerritoryMarkers isDark={isDark} />
           <CityMarkers

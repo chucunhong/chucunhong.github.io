@@ -226,6 +226,34 @@ import Sapa21 from "../assets/travel/Vietnam/Sapa/16&17082026/Sapa_21.jpg";
 import Sapa22 from "../assets/travel/Vietnam/Sapa/16&17082026/Sapa_22.jpg";
 import Sapa23 from "../assets/travel/Vietnam/Sapa/16&17082026/Sapa_23.jpg";
 
+import HoaBinh1 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_1.jpg";
+import HoaBinh2 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_2.jpg";
+import HoaBinh3 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_3.jpg";
+import HoaBinh4 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_4.jpg";
+import HoaBinh5 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_5.jpg";
+import HoaBinh6 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_6.jpg";
+import HoaBinh7 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_7.jpg";
+import HoaBinh8 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_8.jpg";
+import HoaBinh9 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_9.jpg";
+import HoaBinh10 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_10.jpg";
+import HoaBinh11 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_11.jpg";
+import HoaBinh12 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_12.jpg";
+import HoaBinh13 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_13.jpg";
+import HoaBinh14 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_14.jpg";
+import HoaBinh15 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_15.jpg";
+import HoaBinh16 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_16.jpg";
+import HoaBinh17 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_17.jpg";
+import HoaBinh18 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_18.jpg";
+import HoaBinh19 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_19.jpg";
+import HoaBinh20 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_20.jpg";
+import HoaBinh21 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_21.jpg";
+import HoaBinh22 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_22.jpg";
+import HoaBinh23 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_23.jpg";
+import HoaBinh24 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_24.jpg";
+import HoaBinh25 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_25.jpg";
+import HoaBinh26 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_26.jpg";
+import HoaBinh27 from "../assets/travel/Vietnam/HoaBinh/SecomusTeamBuilding/HoaBinh_SecomusTeamBuilding_27.jpg";
+
 const travelData = [
   {
     id: 1,
@@ -560,6 +588,29 @@ const travelData = [
           Sapa1, Sapa2, Sapa3, Sapa4, Sapa5, Sapa6, Sapa7, Sapa8,
           Sapa9, Sapa10, Sapa11, Sapa12, Sapa13, Sapa14, Sapa15, Sapa16,
           Sapa17, Sapa18, Sapa19, Sapa20, Sapa21, Sapa22, Sapa23,
+        ],
+      },
+    ],
+  },
+  {
+    id: 16,
+    city: "Hoa Binh",
+    country: "Vietnam",
+    flag: "🇻🇳",
+    lat: 20.8133,
+    lng: 105.3383,
+    images: [],
+    date: "September 2026",
+    events: [
+      {
+        id: 1,
+        name: "Secomus TeamBuilding",
+        date: "5 Sep 2026",
+        images: [
+          HoaBinh1, HoaBinh2, HoaBinh3, HoaBinh4, HoaBinh5, HoaBinh6, HoaBinh7,
+          HoaBinh8, HoaBinh9, HoaBinh10, HoaBinh11, HoaBinh12, HoaBinh13, HoaBinh14,
+          HoaBinh15, HoaBinh16, HoaBinh17, HoaBinh18, HoaBinh19, HoaBinh20, HoaBinh21,
+          HoaBinh22, HoaBinh23, HoaBinh24, HoaBinh25, HoaBinh26, HoaBinh27,
         ],
       },
     ],
