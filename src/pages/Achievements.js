@@ -3,7 +3,7 @@ import achievementsData from '../data/achievements.json';
 import './Achievements.css';
 
 function Achievements() {
-  const { achievements } = achievementsData;
+  const { achievements } = achievementsData ;
 
   return (
     <div className="achievements-page">

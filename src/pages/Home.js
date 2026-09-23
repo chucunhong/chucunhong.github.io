@@ -111,6 +111,10 @@ function Home() {
         <h2 className="section-heading">News & Updates</h2>
         <ul className="news-list">
           <li>
+            <CalendarBadge date="22 Sep 2026" />
+            <span className="news-content">My paper titled <strong>"Fair Synthetic Tabular Data Generation via Disentangled Semantic Encoding and Large Language Models"</strong> in collaboration with <i>Mrs. Huyen Giang Thi Thu</i>  and <i>Mr. Tai Le Quy</i>  has been accepted for Discover Artificial Intelligence (Q1)!</span>
+          </li>
+          <li>
             <CalendarBadge date="17 Aug 2026" />
             <span className="news-content">Took a short <strong>healing trip to Sapa</strong> on 16–17 Aug 2026 to clear my head before starting my PhD journey — check out the photos in the <Link to="/travel">Travel</Link> section!</span>
           </li>
