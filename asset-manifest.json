@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f0ab6f0.css",
-    "main.js": "/static/js/main.eda6e091.js",
+    "main.css": "/static/css/main.21472aa2.css",
+    "main.js": "/static/js/main.5acdf010.js",
     "static/css/402.73cc65cd.chunk.css": "/static/css/402.73cc65cd.chunk.css",
     "static/js/402.233247c0.chunk.js": "/static/js/402.233247c0.chunk.js",
     "static/css/962.b3be3f89.chunk.css": "/static/css/962.b3be3f89.chunk.css",
@@ -269,8 +269,8 @@
     "static/media/TechMaker4.jpeg": "/static/media/TechMaker4.679906e78b37ed28a211.jpeg",
     "static/media/pain.jpg": "/static/media/pain.ff33273a59bc6c644619.jpg",
     "index.html": "/index.html",
-    "main.3f0ab6f0.css.map": "/static/css/main.3f0ab6f0.css.map",
-    "main.eda6e091.js.map": "/static/js/main.eda6e091.js.map",
+    "main.21472aa2.css.map": "/static/css/main.21472aa2.css.map",
+    "main.5acdf010.js.map": "/static/js/main.5acdf010.js.map",
     "402.73cc65cd.chunk.css.map": "/static/css/402.73cc65cd.chunk.css.map",
     "402.233247c0.chunk.js.map": "/static/js/402.233247c0.chunk.js.map",
     "962.b3be3f89.chunk.css.map": "/static/css/962.b3be3f89.chunk.css.map",
@@ -282,7 +282,7 @@
     "857.160ea134.chunk.js.map": "/static/js/857.160ea134.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f0ab6f0.css",
-    "static/js/main.eda6e091.js"
+    "static/css/main.21472aa2.css",
+    "static/js/main.5acdf010.js"
   ]
 }
